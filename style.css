@@ -1,0 +1,158 @@
+html,body{
+    height: 100%;
+    width:100%;
+    margin: 0%;
+    padding: 0%;
+    background-color: #222;
+   
+
+}
+.page1{
+    height: 100vh;
+    width: 100%;
+    color: #222;
+    /* position: relative; */
+}
+
+.card{
+    background: linear-gradient( aqua,rgba(170, 17, 201, 0.932));
+    /* background-color: rgb(61, 124, 124); */
+    max-height: 32vw;
+    max-width: 45vw;
+    border-radius: 20px;
+    position: relative;
+    left: 30%;
+    top: 20%;
+    padding: 1vw;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    height: 4vw;
+    position: relative;
+    /* width: ; */
+    /* background-color: #121212; */
+    padding-left: 2vw;
+}
+
+input{
+    background-color: rgba(255, 255, 255, 0.644);
+    height: 1.8vw;
+    width: 24vw;
+    border: none;
+    border-radius:10px;
+    padding-left: 1vw;
+    font-family: cursive;
+    font-size: 1.4vw;
+}
+.search{
+    font-size: 2.1vw;
+    padding-left:2vw ;
+
+}
+button{
+    border: none;
+    border-radius: 50%;
+    font-size: 1.7vw;
+}
+.discription{
+    position: absolute;
+    left: 60%;
+    top: 40%;
+    text-transform: capitalize;
+    font-family: cursive;
+    color: aliceblue;
+    font-size: 1.3vw;
+}
+.weatherimg{
+    height: 10vw;
+    width: 15vw;
+    /* background-color: #222; */
+    border-radius: 20px;
+    position: relative;
+    left: 32%;
+    top: 5%;
+}
+.temperature{
+    text-align: center;
+    font-size: 3vw;
+    font-weight: 400;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    position: relative;
+    top: 6%;
+
+    /* background-color: #222; */
+}
+.city{
+    text-align: center;
+    position: relative;
+    top: 5%;
+    color: white;
+    font-size: 3vw;
+    font-family: cursive;
+
+}
+.details{
+    /* background-color: #2323237e; */
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    top: 5%;
+    padding: 1vw;
+}
+.wind{
+    display: flex;
+    /* background-color: #121212be; */
+    height: 5vw;
+    width: 12vw;
+    position: relative;
+    top: 5%;
+}
+.pic2{
+    /* background-color: yellow; */
+    height: 5vw;
+    width: 5vw;
+}
+.data1{
+    font-family: 'Courier New';
+    text-transform: capitalize;
+}
+.percentage{
+    text-align: center;
+    position: relative;
+    top: 20%;
+    font-size: 2vw;
+    font-family: cursive;
+
+}
+.speed{
+    text-align: center;
+    position: relative;
+    top: 20%;
+    font-family: cursive;
+    font-size: 2vw;
+}
+p {
+    font-size: 1.6vw;
+    align-items: center;
+    font-family: cursive;
+}
+.windspeed{
+     position: relative;
+     padding-right: -2vw;
+      /* background-color: #222; */
+      width: 10vw;
+      text-align: center;
+    }
+
+.downprt{
+    display: none;
+}
+
+
+
+
+
